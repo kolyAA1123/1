@@ -12,3 +12,7 @@
 - Follow available setup instructions. If setup_env.sh and render_all.py are
   present, source the environment from this folder and run the renderer there.
   Keep reusable source and instructions alongside the produced artifacts.
+- The four-PDF film lives in pdf_lesson. Source setup_env.sh from this folder,
+  then run `python render_pdf.py --jobs 3` inside pdf_lesson. Its plan.json and
+  narration.json define 20 chapters and 1446 seconds. render_all.py produces
+  the separate, older 11-minute film.
