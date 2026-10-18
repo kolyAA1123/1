@@ -24,3 +24,9 @@
   Its plan.json defines 22 chapters and 1680 seconds. Do not add numerical
   examples or topics beyond the three supplied PDFs. verify_delivery.py checks
   the complete assembled film before package_sources.py prepares delivery files.
+- The conservation/work/oscillations/waves film lives in energy_waves_lesson.
+  Source setup_env.sh, then run `python render_energy_waves.py --jobs 3` there.
+  Its plan.json defines 23 chapters and 1926 seconds. Use only the two supplied
+  PDFs; all cycles and derivations must finish before transitions. The sound
+  section must also remain completely silent. verify_delivery.py checks the
+  assembled film, and package_sources.py prepares the three delivery files.
