@@ -8,6 +8,8 @@
   when updating the user's selected repository.
 - Build each new video from the user's supplied files and instructions. Preserve
   mathematical/physical correctness and readable, uncluttered frames.
+- Keep labels for forces, axes, states and formulas apart. Check actual rendered
+  frames and text bounding boxes; moving labels must also remain readable.
 - Use the existing checkout. Do not create a Git worktree unless requested.
 - Published source is also kept in the corresponding *_sources.zip archive.
   In a fresh checkout, extract the needed archive if its project folder or setup
@@ -30,3 +32,12 @@
   PDFs; all cycles and derivations must finish before transitions. The sound
   section must also remain completely silent. verify_delivery.py checks the
   assembled film, and package_sources.py prepares the three delivery files.
+- The available isoprocesses/humidity sections live in mkt_isoprocesses_lesson.
+  Source setup_env.sh, then run the renderer there with
+  `python render_isoprocesses.py --preview --jobs 3 --no-assemble` first,
+  and `python render_isoprocesses.py --jobs 3` for the final film.
+  Its plan.json defines 13 chapters and 1176 seconds, based on the two available
+  PDFs. The uploaded MKT PDF exceeded the 32 MiB transfer limit and is pending;
+  do not claim it is covered or invent its contents. Preview rendering records
+  text layout checks; verify_delivery.py requires complete, current reports
+  without overlaps before package_sources.py prepares the delivery files.
