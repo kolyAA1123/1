@@ -64,5 +64,17 @@
   retime_video.py changes only static speech holds and preserves every other
   source frame in order at60fps. Run assemble.py, verify_delivery.py, then
   package_sources.py. Keep original MP3, WAVs and ASR model weights out of Git.
-  The five needs_listening notes in recording_review.json are ASR ambiguities,
-  not confirmed listening. Preserve them until the user reviews/rerecords them.
+  The five needs_listening notes in recording_review.json are uncertain ASR
+  outputs, not verified listening. The user clarified that they read the
+  supplied script correctly and that mistakes originated in our text. Review
+  our source script before attributing any mistake to the narrator.
+
+- The corrected THEORY-first dynamics/statics/hydrostatics narration lives in
+  mechanics_theory_revision. Its authoritative output is narration_theory.json
+  (22 chapters,110 passages). Run export_text.py there/from the repo to produce
+  the TXT and DOCX and refresh the canonical dynamics narration filename.
+  The previous mechanics_lesson narration is a visual-timing reference only;
+  do not overwrite the revised text with its old generator. Times are scene
+  anchors, not measured slots for the expanded theory. Preserve natural reading
+  pace and adapt visuals after receiving a recording. Use definitions, physical
+  meaning, conditions and complete explanations; proofread the script itself.
