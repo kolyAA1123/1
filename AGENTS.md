@@ -53,3 +53,16 @@
   the visual plan; never time-compress speech to fit the old film. Do not claim
   the synthetic voice is a human recording. Keep voice weights, WAV files and
   cache directories out of Git and source archives.
+
+- The user supplied a recording for the first kinematics film after asking to
+  cut and synchronize their own narration. The provided-recording variant lives
+  in kinematika_human_lesson and is separate from the Mari version. It has 120
+  recorded parts and 1675 seconds (27:55). Do not synthesize or rewrite words.
+  process_recording.py prepares a mono48k levelled WAV and16k guide; cuts.json
+  preserves reviewed acoustic boundaries; prepare_human.py trims end pauses
+  using the original guide, then derives the measured voice plan/frame map.
+  retime_video.py changes only static speech holds and preserves every other
+  source frame in order at60fps. Run assemble.py, verify_delivery.py, then
+  package_sources.py. Keep original MP3, WAVs and ASR model weights out of Git.
+  The five needs_listening notes in recording_review.json are ASR ambiguities,
+  not confirmed listening. Preserve them until the user reviews/rerecords them.
