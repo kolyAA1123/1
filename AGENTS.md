@@ -41,3 +41,15 @@
   do not claim it is covered or invent its contents. Preview rendering records
   text layout checks; verify_delivery.py requires complete, current reports
   without overlaps before package_sources.py prepares the delivery files.
+
+- The user explicitly requested a voiced remake of the FIRST 11-minute kinematics
+  film and selected the first calm female sample, Mari. This is an exception to
+  the default silent workflow. The new project is kinematika_voice_lesson;
+  preserve all older films. Run install_voice.sh there, then use the isolated
+  ../.venv-speech/bin/python generate_voice.py. Source ../setup_env.sh and run
+  render_lecture.py --preview --jobs 3 --no-assemble, then render_lecture.py
+  --jobs 3, verify_delivery.py and package_sources.py. Its current measured plan
+  has 12 chapters, 120 speech parts and 1758 seconds. Speech timing determines
+  the visual plan; never time-compress speech to fit the old film. Do not claim
+  the synthetic voice is a human recording. Keep voice weights, WAV files and
+  cache directories out of Git and source archives.
