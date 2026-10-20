@@ -78,3 +78,23 @@
   anchors, not measured slots for the expanded theory. Preserve natural reading
   pace and adapt visuals after receiving a recording. Use definitions, physical
   meaning, conditions and complete explanations; proofread the script itself.
+
+
+- The theory-first thermal equilibrium/thermodynamics/Carnot film lives in
+  thermodynamics_lesson. It covers all 17 pages of the three supplied PDFs.
+  Keep it silent on pure black; deliver separate TXT and DOCX for the user's
+  voice. Source setup_env.sh, run prepare_lesson.py, then render_thermal.py
+  --preview --jobs 3 --no-assemble and make_contacts.py. Inspect every beat's
+  theory/action/result frames and require zero text collisions, then run
+  render_thermal.py --jobs 3, verify_delivery.py and package_sources.py.
+  Its reviewed plan has 14 chapters, 52 beats, 104 passages and 2626 seconds.
+  The two narration windows surround a completed action; durations estimate
+  natural reading at 125 wpm, not measured recorded speech. Adapt holds after
+  a recording. Export Word with export_docx.py (python-docx; optional pinned
+  requirements-export.txt). Preserve the source corrections in SOURCE_NOTES.md:
+  correct c/C units and calorimeter temperature differences, no "isolated"
+  system at Q!=0, constant-p work, ideal-gas model conditions, positive Qn/Qc
+  magnitudes for engine efficiency and Kelvin/identical-reservoir/reversible
+  conditions for Carnot. The ball must fully submerge before temperatures
+  change; subsequent colour animation must keep its final position. The
+  heating curve keeps all five segments and Carnot returns exactly to state 1.
