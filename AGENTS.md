@@ -121,3 +121,22 @@
   for preview/final so later previews cannot overwrite the final clock.
   Narration windows estimate 125 wpm, not a measured recording; adapt holds
   after receiving the user's voice. Preserve all previous films and files.
+
+
+- The direct-current theory film lives in direct_current_lesson: all 14 PDF pages,
+  16 chapters, 50 beats, 100 narration parts, 2918 seconds (48:38). Keep pure black,
+  silent 1080p60; deliver TXT and DOCX. Source ../setup_env.sh, run prepare_lesson.py,
+  export_docx.py (system Python/python-docx), render_current.py --preview --jobs 3,
+  make_contacts.py, render_current.py --jobs 3, verify_delivery.py, package_sources.py.
+  Reading windows estimate 125 wpm; adapt static holds after the user's recording.
+  Source conditions/corrections live in SOURCE_NOTES.md and materials/audit_*.md.
+  Preserve electron/I/E directions, q charge versus Q heat, R external versus r internal.
+  Ideal V is parallel/infinite R and ideal A series/zero R. Rheostat: left terminal to slider.
+  Show T>Tc: R>0 before superconducting transition and T<Tc: R=0 after, for some materials.
+  Keep r>0 at short circuit; finish derivations, both I(t) plots and the full energy loop.
+  Na+ and Cl- have separate motion lanes; the steady ammeter does not reset. Hole handoff
+  must fill the old vacancy and create a new one, with fixed atomic sites. Diode anode/cathode
+  stay fixed when polarity changes; zero/infinite R are ideal only. Frame alignment may
+  append 1–5 already pure black frames only when SPS/PPS match and all original packet
+  hashes/timestamps are preserved; otherwise fall back to full black tail re-encoding.
+  Require current layout/sync audits, visual review and full decode before publication.
