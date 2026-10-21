@@ -140,3 +140,26 @@
   append 1–5 already pure black frames only when SPS/PPS match and all original packet
   hashes/timestamps are preserved; otherwise fall back to full black tail re-encoding.
   Require current layout/sync audits, visual review and full decode before publication.
+
+
+- The magnetism/flux theory film lives in magnetism_lesson: all 22 PDF pages,
+  19 chapters, 60 beats, 120 narration parts, 3517 seconds (58:37). Keep pure black,
+  silent 1080p60, deliver TXT and DOCX. Source ../setup_env.sh, run prepare_lesson.py,
+  export_docx.py with python-docx, render_magnetic.py --preview --jobs 3,
+  make_contacts.py, render_magnetic.py --jobs 3, verify_delivery.py, package_sources.py.
+  Reading windows estimate 125 wpm; adapt static holds to the user's recording.
+  Read SOURCE_NOTES.md and materials/audit_*.md for source corrections. N=ROSE,
+  S=CYAN; lines close N to S outside and S to N inside. Compass aligns with local
+  resultant B; field vectors share a scale when used to infer the compass angle.
+  Dot is +z toward the viewer, cross is -z away. Verify I cross B and q(v cross B).
+  Magnetic Lorentz magnitude uses |q|. Ampere wire rotates rigidly at fixed length.
+  Flux angle is between B and normal n; rotate constant-area frames by their angle,
+  not endpoint blending. Induced B is along +/-n, not always +/-external B.
+  State the view for clockwise currents. Arrows for induced current fade when the
+  external flux stops changing in ordinary resistive loops. Faraday sign and
+  absolute-value formulas are distinct. Psi=N Phi0 is linkage; Psi_self=L I.
+  Do not count N twice. Signed self-EMF is -L Iprime and eps+eps_self=I Rsum.
+  Current begins growing immediately after switching, without a finite dead time;
+  winding resistance remains at steady current. Energy is L I squared / 2.
+  Require current layout/sync audits, all rendered states reviewed, and full decode
+  before publication; preserve all earlier films and files.
