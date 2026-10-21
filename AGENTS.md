@@ -98,3 +98,26 @@
   conditions for Carnot. The ball must fully submerge before temperatures
   change; subsequent colour animation must keep its final position. The
   heating curve keeps all five segments and Carnot returns exactly to state 1.
+
+- In user-facing download lists, omit the four kinematics variants (11:00,
+  24:06, synthetic voice29:18, user's voice27:55) unless requested again.
+  The user removed them from the list; preserve the actual files and archives.
+
+
+- The source-based electrostatics/capacitors theory film lives in
+  electrostatics_lesson: 20 PDF pages, 17 chapters, 57 beats, 114 narration passages,
+  2855 seconds (47:35). Keep it silent on pure black and deliver TXT plus DOCX.
+  Source setup_env.sh, run prepare_lesson.py, then render_electric.py --preview
+  --jobs 3 --no-assemble, make_contacts.py, render_electric.py --jobs 3,
+  verify_delivery.py and package_sources.py. Export Word with export_docx.py and requirements-export.txt.
+  Read source corrections in SOURCE_NOTES.md. Distinguish Q from q0 and work
+  of the field from minus the potential-energy change. Scope sphere formulas
+  to a conducting sphere; preserve E's surface jump and phi's continuity.
+  Keep the capacitor's one-plate charge distinct from total charge, fixed-q
+  distinct from fixed-U, and neutral internal nodes in series. Never move
+  charge through the ideal dielectric. In 14.3 the probe traverses the full gap.
+  Vector lengths in compensation diagrams share one scale. Formula changes
+  use sequential FadeOut/FadeIn, not glyph morphing. Sync reports are separate
+  for preview/final so later previews cannot overwrite the final clock.
+  Narration windows estimate 125 wpm, not a measured recording; adapt holds
+  after receiving the user's voice. Preserve all previous films and files.
