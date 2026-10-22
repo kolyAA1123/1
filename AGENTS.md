@@ -163,3 +163,28 @@
   winding resistance remains at steady current. Energy is L I squared / 2.
   Require current layout/sync audits, all rendered states reviewed, and full decode
   before publication; preserve all earlier films and files.
+
+
+- The LC oscillations/transmission/transformer film lives in lc_oscillations_lesson:
+  all 8 PDF pages, 9 chapters, 29 beats, 58 narration parts, 2389 words, 1641 seconds
+  (27:21). Silent pure-black 1080p60; deliver TXT/DOCX. Source ../setup_env.sh,
+  run prepare_lesson.py, export_docx.py (python-docx), render_lc.py --preview
+  --jobs 3, make_contacts.py, render_lc.py --jobs 3, verify_delivery.py and
+  package_sources.py. README gives the uv dependency/export ordering.
+  Reading windows estimate 125 wpm; adapt static holds after the user's recording.
+  See SOURCE_NOTES.md and materials/audit_*.md. q is the fixed initially positive
+  LEFT plate charge; +I through the TOP coil points LEFT, so I=qprime and the
+  first actual discharge points right with I<0. Full cycle must return to qmax,I0.
+  Never move charge through dielectric; zero current has no actual arrow.
+  q/qmax=cos(wt), I/Imax=-sin(wt); energies cos-squared/sin-squared stay >=0
+  with period T/2, unlike charge/current T. U=-L Iprime is the signed balance
+  with those conventions. Complete the derivation w=1/sqrt(LC),T=2pi sqrt(LC).
+  Sum of energies equals each separate maximum, not the sum of maxima.
+  Damping transfers field energy to heat; end of observation is not finite-time
+  disappearance. Generator completes its turn at constant physical area.
+  AC P=UI uses RMS values and an active load; line losses I-squared r compare
+  at fixed P,r. U is the line-input terminal voltage, not unconditional source EMF.
+  Transformer windings are electrically separate and share one varying per-turn
+  flux. Use signed Faraday or correct magnitudes; count N once. Ideal U2/U1=N2/N1,
+  same frequency. Require current layout/sync audits, visual review, full decode
+  and verified download links before publication. Preserve earlier films/files.
