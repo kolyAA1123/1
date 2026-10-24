@@ -188,3 +188,30 @@
   flux. Use signed Faraday or correct magnitudes; count N once. Ideal U2/U1=N2/N1,
   same frequency. Require current layout/sync audits, visual review, full decode
   and verified download links before publication. Preserve earlier films/files.
+
+
+- The optics/lenses theory film lives in optics_lesson: all 26 pages of two PDFs,
+  17 chapters, 57 beats, 114 narration parts, 4627 words, 3188 seconds (53:08).
+  Keep silent pure-black 1080p60; deliver TXT and DOCX. Source ../setup_env.sh,
+  run prepare_lesson.py, export_docx.py (python-docx), render_optics.py --preview
+  --jobs 3, make_contacts.py, render_optics.py --jobs 3, verify_delivery.py and
+  package_sources.py. README gives uv dependency/export order. Reading windows
+  estimate 125 wpm; adapt holds after the user's recording. Preserve older films.
+  Source conditions/corrections: SOURCE_NOTES.md and materials/audit_*.md.
+  All angles are measured from normals. TIR requires n1>n2 and alpha>critical;
+  equality is grazing refraction. Plate outer media match; displacement is normal
+  to parallel rays. Use glass index, not the source typo water. Normal dispersion:
+  violet nearer normal than red. Geometric/paraxial thin lens model, same ambient
+  medium on both sides; power D=1/F with F in metres. All real rays are solid with
+  arrows along energy; backward extensions dashed. Reverse every actual arrow.
+  optical_math.py and optical_geometry.py provide exact signed intersections and
+  label placement; include BOTH in render/audit freshness dependencies. Real object
+  d>0, real image f>0, virtual f<0; converging F>0/diverging F<0. H,h are positive
+  sizes; Gamma=H/h=abs(f)/d and orientation is separate. A is the base, B the tip.
+  At d=F outgoing rays are parallel; no finite image. Do not animate d across the
+  pole. Verify all five converging and two diverging cases. Correct h/f to h/F
+  in source similarity derivation. The pupil is an aperture, not the lens; cornea
+  and crystalline lens refract. Eye correction rays end at the retina; any
+  behind-retina geometry is dashed only. Do not add accommodation theory absent
+  from the PDF. Require all rendered states reviewed, current layout/sync reports,
+  full decode and verified download links before publication.
