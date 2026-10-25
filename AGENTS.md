@@ -241,3 +241,41 @@
   all other colours disappear. Include wave_math.py in render/audit freshness.
   Require every rendered state reviewed, current layout/sync reports, complete
   actions, full decode and verified download links before publication.
+
+
+- The quantum/photoeffect/relativity/nuclear film lives in quantum_nuclear_lesson:
+  all 27 pages of two PDFs, 17 chapters, 54 beats, 108 narration parts,
+  4199 words, 2933 seconds (48:53). Keep silent pure-black 1080p60;
+  deliver TXT/DOCX. Source ../setup_env.sh, run prepare_lesson.py,
+  export_docx.py (python-docx), render_quantum.py --preview --jobs 3,
+  make_contacts.py, render_quantum.py --jobs 3, verify_delivery.py and
+  package_sources.py. Reading windows estimate 125 wpm; adapt holds after
+  the user's recording. Preserve older films. SOURCE_NOTES.md and materials
+  contain source corrections and independent physics/visual reviews.
+  Large apertures do not prove particle behaviour; which-path measurement
+  is physical interaction, not consciousness. Do not attribute that setup to
+  de Broglie. Photon E=h*nu=hc/lambda and p=h/lambda use vacuum lambda/c;
+  reflected photon delta-p=-2p, plate receives +2p for normal ideal reflection.
+  Bohr levels are historical states, not continuous spatial paths; hydrogen
+  En=-13.6/n^2 eV, zero is ionization, all six depicted transitions are alternatives.
+  H2 is molecular, deuterium is an isotope. Spectra are qualitative, uncalibrated.
+  Photoelectron initial speeds/directions vary; Kmax is an upper bound. Use
+  U=Vanode-Vcathode, e>0 and positive Ustop with cutoff at signed U=-Ustop.
+  Work function is escape from the material surface, not isolated-atom ionization.
+  Kmax=me*vmax^2/2 requires nonrelativistic electrons; threshold Kmax=0 is
+  not a guaranteed finite collected current. Intensity J differs from current I.
+  Light-clock triangle uses c^2-v^2; one-way t1 is not proper time between
+  distinct floor/ceiling points. E0=mc^2 uses vacuum c. Correct source's
+  massless-muon error to rest-frame pi0->two opposite photons; do not add
+  relativistic mass or length-contraction chapters absent from the PDF.
+  Rutherford deflection is electrostatic; classical collapse is not annihilation.
+  A/Z count nucleons/protons, electrons=Z only for neutral atoms. Lorentz:
+  v right/B into screen gives alpha up, beta-minus down, gamma straight.
+  Mass defect compares the whole bound nucleus to free nucleons, not changing
+  each nucleon's invariant mass. Decay m(t) is remaining parent-isotope mass;
+  activity falls while cumulative decays rise. U235+n fission is induced,
+  not spontaneous decay. Fission paths are schematic with opposite fragment
+  recoil; neutron losses prevent guaranteed tripling. Control rods absorb;
+  graphite moderates. Include quantum_math.py in render/audit freshness.
+  Require current layout/sync reports, every rendered state reviewed, complete
+  actions, full decode and verified download links before publication.
