@@ -215,3 +215,29 @@
   behind-retina geometry is dashed only. Do not add accommodation theory absent
   from the PDF. Require all rendered states reviewed, current layout/sync reports,
   full decode and verified download links before publication.
+
+
+- The wave-optics theory film lives in wave_optics_lesson: all 9 PDF pages,
+  9 chapters, 29 beats, 58 narration parts, 2302 words, 1598 seconds (26:38).
+  Keep silent pure-black 1080p60; deliver TXT/DOCX. Source ../setup_env.sh,
+  run prepare_lesson.py, export_docx.py (python-docx), render_wave.py --preview
+  --jobs 3, make_contacts.py, render_wave.py --jobs 3, verify_delivery.py and
+  package_sources.py. README gives dependency/export order. Reading windows
+  estimate 125 wpm; adapt holds after the user's recording. Preserve old films.
+  Source conditions: SOURCE_NOTES.md and materials/audit_wave_*.md. Natural
+  light is not one coherently rotating E vector; polarization is transverse.
+  Simple path extrema assume initially in-phase sources and a common medium;
+  zero cancellation requires equal amplitudes. DeltaL=L2-L1 with S1 above S2;
+  phase_pair uses a propagation lag, not an advance. Far-field DeltaL is
+  approximately d sin(phi); far field alone does not imply a small angle.
+  A grating period contains transparent and opaque parts; L spans N complete
+  cells. Odd half-wavelength is not a universal multislit minimum. Finite
+  forward-screen orders require abs(k)*lambda<d, strictly; kmax=ceil(d/lambda)-1.
+  x approximately k*lambda*ell/d requires small angles. In the film section d
+  becomes thickness. Use one reflection phase inversion for n_air<n_film>n_water;
+  the half-wave term is phase, not energy loss. DeltaLeff approximately
+  2*n*d+lambda0/2 requires nearly normal incidence. The given first reflected
+  maximum is 760/(4*1.6)=118.75 nm approximately 119 nm, without claiming that
+  all other colours disappear. Include wave_math.py in render/audit freshness.
+  Require every rendered state reviewed, current layout/sync reports, complete
+  actions, full decode and verified download links before publication.
