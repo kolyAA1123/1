@@ -99,9 +99,12 @@
   change; subsequent colour animation must keep its final position. The
   heating curve keeps all five segments and Carnot returns exactly to state 1.
 
-- In user-facing download lists, omit the four kinematics variants (11:00,
-  24:06, synthetic voice29:18, user's voice27:55) unless requested again.
-  The user removed them from the list; preserve the actual files and archives.
+- In user-facing download lists, include the combined 24:06 kinematics,
+  graphs, relative/rotational motion and ballistics film again: the user
+  restored it on 2026-10-27 and intends to record their narration anew.
+  Use kinematika_po_pdf_1080p60.mp4 and kinematika_po_pdf_ozvuchka.txt.
+  Keep omitting the 11:00, synthetic voice29:18 and user's voice27:55 variants
+  unless requested again. Preserve all actual files and archives.
 
 
 - The source-based electrostatics/capacitors theory film lives in
@@ -279,3 +282,18 @@
   graphite moderates. Include quantum_math.py in render/audit freshness.
   Require current layout/sync reports, every rendered state reviewed, complete
   actions, full decode and verified download links before publication.
+
+
+- The NEW recording `1.mp3` for the combined four-PDF24:06 kinematics film
+  lives in kinematika_pdf_human_lesson (distinct from old120cue firstfilm).
+  Its measured voiced edit has20chapters,100cues,1872seconds31:12.
+  Keep originalsilent24:06 and oldvoicevariants intact. No TTS; no voice speed
+  or pitch change. build_edit.py derives exactPCMtracks and frame_map from
+  cuts.json plus reviewed narration_anchors.json. retime_video.py changes only
+  decoded-static sourceholds and initial singleframe pauses plus apexWait.
+  All other sourceframes stay in native60fps order. Run assemble.py,
+  verify_delivery.py (fullAVdecode, exactPCM, sourceholdpixelchecks), then
+  package_delivery.py. ASR is not verified listening or narrator-error evidence.
+  Tight01_05→02_01join82.83s is documented in output/alignment_review.json;
+  preserve quiet edge handles. The second uploaded compressed mechanics MP3
+  exceeded32MiB transfer limit and has NOT been processed; await smaller upload.
