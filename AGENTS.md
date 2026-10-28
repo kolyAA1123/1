@@ -295,5 +295,24 @@
   verify_delivery.py (fullAVdecode, exactPCM, sourceholdpixelchecks), then
   package_delivery.py. ASR is not verified listening or narrator-error evidence.
   Tight01_05→02_01join82.83s is documented in output/alignment_review.json;
-  preserve quiet edge handles. The second uploaded compressed mechanics MP3
-  exceeded32MiB transfer limit and has NOT been processed; await smaller upload.
+  preserve quiet edge handles.
+
+
+- The supplied recording for the SECOND film is processed in
+  mechanics_human_lesson: 22 chapters, 110 cues, 2493 seconds (41:33). It matches
+  mechanics_theory_revision/narration_theory.json, not the old mechanics text.
+  Preserve the silent 28:00 film and earlier recordings. No TTS; preserve voice
+  speed and pitch. build_edit.py derives PCM tracks and frame_map from cuts.json,
+  reviewed narration_anchors.json and sync_adjustments.json. Visual sources live
+  in mechanics_human_lesson/visual_source: 20 unchanged chapter clips refer to
+  the old source; chapters 3 and 5 have isolated label position fixes (N/friction
+  overlap and the condition label crossing the support line). Never overwrite
+  mechanics_lesson sources or films. visual_corrections.json preserves original
+  and new SHA256 values and frame counts. Retiming changes only static pauses,
+  including the spring, pulley and buoyancy initial states, the pressure formula
+  before cancellation, and visible jets. Run retime_video.py, assemble.py,
+  verify_delivery.py (full audio/video decode), then package_delivery.py.
+  Exact SHA256/span exceptions in static_exceptions.json document four frozen
+  Wait codec variations. Do not broaden global pixel thresholds or mistake ASR
+  phonetics for narrator errors. Original MP3 SHA256:
+  76d33b7d559a3dc5a6922d9a5bb4f04a8df8694acfbc299d59f106c4de3e8f9c.
