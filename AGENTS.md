@@ -62,7 +62,7 @@
   preserves reviewed acoustic boundaries; prepare_human.py trims end pauses
   using the original guide, then derives the measured voice plan/frame map.
   retime_video.py changes only static speech holds and preserves every other
-  source frame in order at60fps. Run assemble.py, verify_delivery.py, then
+  source frame in order at 60 fps. Run assemble.py, verify_delivery.py, then
   package_sources.py. Keep original MP3, WAVs and ASR model weights out of Git.
   The five needs_listening notes in recording_review.json are uncertain ASR
   outputs, not verified listening. The user clarified that they read the
@@ -316,3 +316,26 @@
   Wait codec variations. Do not broaden global pixel thresholds or mistake ASR
   phonetics for narrator errors. Original MP3 SHA256:
   76d33b7d559a3dc5a6922d9a5bb4f04a8df8694acfbc299d59f106c4de3e8f9c.
+
+
+- The THIRD provided recording is handled in energy_waves_human_lesson:
+  23 chapters, 115 cues, 2295 seconds (38:15), based on
+  energy_waves_lesson/narration.json. Preserve the silent 32:06 film and all
+  older projects. No TTS, generated tones or music, including sound chapters;
+  the provided voice is the authorized audio. Preserve voice speed and pitch.
+  build_edit.py uses cuts.json, narration_anchors.json, sync_adjustments.json.
+  Ten additional static pauses align contact forces, impulse definitions,
+  energy exchange, route stages, visible external force, wave labels and fork
+  transmission/response; all original motion frames remain in order at 60 fps.
+  visual_source contains 19 unchanged chapter links and corrected chapters 3/5/6/7:
+  state 1/2 labels are BELOW the displacement arrow to avoid moving mg shafts,
+  selected DOWN spring-force labels have increased floor clearance, and the two
+  fragment weight labels in 03_03 are moved outboard to remain separate.
+  Original source files and all 23 original clips must remain unchanged.
+  visual_corrections.json and original_source_manifest.json prove provenance.
+  Render only inside visual_source; never overwrite original chapter targets.
+  retime_video.py uses CRF 20; assemble.py uses mono AAC 80k for GitHub size.
+  Run verify_delivery.py with full audio/video decode before package_delivery.py.
+  All 115 original holds passed strict pixel checks; do not add broad exceptions.
+  ASR is not listening verification; preserve the complete recorded content.
+  Source MP3 SHA256: 7c8081c50662440763f14c114a902f8247270ccf1a5f53eeff22763c9cc5adab.
