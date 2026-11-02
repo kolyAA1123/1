@@ -291,7 +291,7 @@
   or pitch change. build_edit.py derives exactPCMtracks and frame_map from
   cuts.json plus reviewed narration_anchors.json. retime_video.py changes only
   decoded-static sourceholds and initial singleframe pauses plus apexWait.
-  All other sourceframes stay in native60fps order. Run assemble.py,
+  All other sourceframes stay in native 60 fps order. Run assemble.py,
   verify_delivery.py (fullAVdecode, exactPCM, sourceholdpixelchecks), then
   package_delivery.py. ASR is not verified listening or narrator-error evidence.
   Tight01_05→02_01join82.83s is documented in output/alignment_review.json;
@@ -339,3 +339,21 @@
   All 115 original holds passed strict pixel checks; do not add broad exceptions.
   ASR is not listening verification; preserve the complete recorded content.
   Source MP3 SHA256: 7c8081c50662440763f14c114a902f8247270ccf1a5f53eeff22763c9cc5adab.
+
+
+- The FOURTH recording is handled in isoprocesses_human_lesson: 13 chapters,
+  65 cues, 1411 seconds (23:31), matching mkt_isoprocesses_lesson/narration.json.
+  Scope remains the two available PDFs (isoprocesses and humidity); never claim
+  that the unavailable MKT beginning PDF is included. Preserve the silent 19:36
+  film, all 13 source clips, source files and existing layout reports unchanged.
+  Use only the supplied voice, no TTS or signals; preserve tempo and pitch.
+  build_edit.py uses cuts.json, narration_anchors.json and sync_adjustments.json;
+  five static pauses align gas transition, phase comparison, evaporation,
+  saturation stop and surface pressure explanation before completed venting.
+  retime_video.py uses CRF 18 and original mkt_isoprocesses_lesson chapters;
+  assemble.py uses mono AAC 128k. Check actual final file size before publishing.
+  verify_delivery.py requires exact PCM/source provenance, 70 active source held
+  intervals, native 60 fps frame partitions, actual AAC and full video/audio decode.
+  Five exact SHA/span static_exceptions document frozen-table codec variation;
+  do not broaden global pixel tolerances or treat ASR phonetics as narrator errors.
+  Source MP3 SHA256: b30b88cd654c6ee3b317dab06d2f629cd7906dd3cb5ed882f712a33c846f466a.
