@@ -357,3 +357,28 @@
   Five exact SHA/span static_exceptions document frozen-table codec variation;
   do not broaden global pixel tolerances or treat ASR phonetics as narrator errors.
   Source MP3 SHA256: b30b88cd654c6ee3b317dab06d2f629cd7906dd3cb5ed882f712a33c846f466a.
+
+
+- The FIFTH recording is handled in thermodynamics_human_lesson: 14 chapters,
+  104 intro/result parts, 52 complete actions, 2500 seconds (41:40). Its source
+  is thermodynamics_lesson/plan.json and flat narration.json passages, not the
+  older one-cue-per-beat schema. Preserve the silent 43:46 film, all 14 original
+  clips, 22 source files and 28 layout/sync reports unchanged. Only the supplied
+  voice is authorized; no TTS, music or signals, and no tempo/pitch changes.
+  build_edit.py uses cuts.json and audited source_windows.json frame integers;
+  nominal timestamps can differ by one frame. Replace only the 104 frozen Wait
+  intervals. Preserve all reveal/action/result frames, guards and fades at 60 fps.
+  Twelve original chapters have a one-frame faded-tail clone after their partial
+  frame sums; preserve it. visual_source links 13 unchanged clips and has an
+  isolated chapter 7 render with only F_fr moved above the cylinder wall.
+  visual_corrections.json records exact hashes and per-animation frame counts.
+  retime_video.py uses CRF 18 and assemble.py mono AAC 128k. A concat CFR repair
+  preserves exact sequential frame order when timestamp metadata requires it.
+  Run verify_delivery.py with full audio/video decode, actual AAC placement,
+  exact PCM provenance, all 52 action partitions, original hashes and 104 static
+  source checks before package_delivery.py. One exact SHA/span codec exception
+  in static_exceptions.json is limited to frozen 04_01_intro; do not broaden
+  global tolerances or treat ASR phonetics as narrator errors. Reviewed 05_03
+  intro/result boundary is 636.43 seconds in a 2.38-second quiet interval;
+  the complete source recording is partitioned without omitted content.
+  Source MP3 SHA256: a8c4d2d545cf3ff6f73be554f97510d6b9cce355e0a7f9de227562ecaaedc5d0.
