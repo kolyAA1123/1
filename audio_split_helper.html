@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Разделить запись для отправки</title>
+<style>
+  :root{color-scheme:light;font:18px/1.55 system-ui,Segoe UI,sans-serif;color:#172234;background:#eef3f8}
+  body{max-width:780px;margin:36px auto;padding:0 20px}
+  main{background:white;border-radius:18px;padding:30px;box-shadow:0 8px 30px #213e5910}
+  h1{font-size:29px;line-height:1.2;margin-top:0}h2{font-size:22px}
+  p{margin:16px 0}.muted{color:#526174;font-size:16px}
+  .pick,.download{display:inline-block;background:#1761c2;color:white;padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:650;cursor:pointer}
+  .pick:focus-within,.download:focus{outline:3px solid #e3a21b;outline-offset:4px}
+  #file{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  #parts{padding:0;list-style:none}#parts li{margin:16px 0}.name{overflow-wrap:anywhere}
+  [hidden]{display:none!important}footer{font-size:15px;color:#526174;margin:20px 0}
+</style>
+<main>
+  <h1>Разделить запись для отправки в чат</h1>
+  <p>Выберите MP3. Появятся кнопки для скачивания частей размером до 20 МБ.</p>
+  <label class="pick">Выбрать запись MP3<input id="file" type="file" accept=".mp3,audio/mpeg"></label>
+  <p class="muted">Обработка выполняется в этом браузере. Запись сохраняет исходное качество.</p>
+  <p id="status" role="status" aria-live="polite"></p>
+  <section id="result" hidden>
+    <h2>Скачайте все части</h2>
+    <p>Нажмите каждую кнопку ниже. Затем прикрепите <strong>все полученные файлы</strong> в чат и напишите: «Электростатика и конденсаторы. Части одной записи».</p>
+    <ul id="parts"></ul>
+    <p class="muted">Порядок указан в именах файлов. Это части для передачи: перед монтажом их нужно объединить в исходную запись.</p>
+  </section>
+</main>
+<footer>Работает в Chrome и Edge. Дополнительные программы не требуются.</footer>
+<script>
+'use strict';
+const CHUNK_BYTES = 20 * 1024 * 1024;
+const fileInput = document.getElementById('file');
+const status = document.getElementById('status');
+const result = document.getElementById('result');
+const list = document.getElementById('parts');
+// Keep object URLs alive for the lifetime of this page, including downloads.
+// The browser releases them when the document closes.
+const objectUrls = [];
+function formatSize(bytes) {
+  if (bytes < 1024) return `${bytes} байт`;
+  if (bytes < 1024 * 1024) return `${Math.ceil(bytes / 1024)} КБ`;
+  return `${(bytes / 1024 / 1024).toFixed(1)} МБ`;
+}
+fileInput.addEventListener('change', () => {
+  result.hidden = true;
+  list.replaceChildren();
+  const file = fileInput.files[0];
+  if (!file) { status.textContent = ''; return; }
+  if (!/\.mp3$/i.test(file.name)) {
+    status.textContent = 'Выберите файл с расширением .mp3.';
+    return;
+  }
+  if (!file.size) { status.textContent = 'Этот файл пуст. Выберите запись с голосом.'; return; }
+  const total = Math.ceil(file.size / CHUNK_BYTES);
+  const group = Date.now().toString(36);
+  const digits = Math.max(2, String(total).length);
+  for (let i = 0; i < total; i++) {
+    const start = i * CHUNK_BYTES;
+    const end = Math.min(start + CHUNK_BYTES, file.size);
+    const part = file.slice(start, end, 'audio/mpeg');
+    const link = document.createElement('a');
+    const partNumber = String(i + 1).padStart(digits, '0');
+    link.href = URL.createObjectURL(part);
+    objectUrls.push(link.href);
+    link.download = `audio_${group}_part_${partNumber}_of_${String(total).padStart(digits, '0')}.mp3`;
+    link.className = 'download';
+    link.textContent = `Скачать часть ${i + 1} из ${total} (${formatSize(part.size)})`;
+    const row = document.createElement('li');
+    row.append(link);
+    list.append(row);
+  }
+  status.textContent = `Выбрана запись: ${file.name}. Подготовлено частей: ${total}.`;
+  status.className = 'name';
+  result.hidden = false;
+});
+</script>
+</html>

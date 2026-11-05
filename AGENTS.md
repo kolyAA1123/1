@@ -382,3 +382,25 @@
   intro/result boundary is 636.43 seconds in a 2.38-second quiet interval;
   the complete source recording is partitioned without omitted content.
   Source MP3 SHA256: a8c4d2d545cf3ff6f73be554f97510d6b9cce355e0a7f9de227562ecaaedc5d0.
+
+
+- The SIXTH own-voice edit is pending locally in electrostatics_human_lesson: 17 source
+  chapters, 57 actions, 114 intro/result passages, 2855 silent-source seconds.
+  Exact source_windows.json and output/source_timeline.json already exist;
+  all 114 reading Waits are frozen. Original 17 clips, 23 source files, 51
+  reports and published silent movie hashes are recorded and preserved.
+  Three supplied MP3 uploads exceed the 32 MiB transfer limit; no sixth
+  recording has been processed and its voiced duration is not known.
+  status.json records the pending upload IDs and preparation state.
+  The offline audio_split_helper.html/ZIP splits the user's file into 20 MiB
+  BINARY fragments named audio_<group>_part_01_of_03.mp3. These are transport
+  fragments, not independent audio tracks. Require every part 1..N from the
+  same group exactly once, concatenate their raw bytes IN ORDER, then decode,
+  filter and recognize the restored full MP3. Never decode parts separately:
+  cuts may cross an MP3 frame or bit reservoir. Keep the original natural
+  voice speed/pitch. Do not substitute a previous recording or synthesize.
+  ElectricScene.construct writes reports unconditionally; load old PLAN before
+  redirecting electric_style.ROOT to the new project for any geometry audit.
+  Preserve original one-frame black tails in chapters 3/4/5/6/8/10/13–17.
+  The original intro-to-action guard can be 0.783333 s; preserve exact source
+  frame integers rather than enforcing the thermal film's rounded 0.8 s.
