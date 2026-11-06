@@ -384,23 +384,35 @@
   Source MP3 SHA256: a8c4d2d545cf3ff6f73be554f97510d6b9cce355e0a7f9de227562ecaaedc5d0.
 
 
-- The SIXTH own-voice edit is pending locally in electrostatics_human_lesson: 17 source
-  chapters, 57 actions, 114 intro/result passages, 2855 silent-source seconds.
-  Exact source_windows.json and output/source_timeline.json already exist;
-  all 114 reading Waits are frozen. Original 17 clips, 23 source files, 51
-  reports and published silent movie hashes are recorded and preserved.
-  Three supplied MP3 uploads exceed the 32 MiB transfer limit; no sixth
-  recording has been processed and its voiced duration is not known.
-  status.json records the pending upload IDs and preparation state.
-  The offline audio_split_helper.html/ZIP splits the user's file into 20 MiB
-  BINARY fragments named audio_<group>_part_01_of_03.mp3. These are transport
-  fragments, not independent audio tracks. Require every part 1..N from the
-  same group exactly once, concatenate their raw bytes IN ORDER, then decode,
-  filter and recognize the restored full MP3. Never decode parts separately:
-  cuts may cross an MP3 frame or bit reservoir. Keep the original natural
-  voice speed/pitch. Do not substitute a previous recording or synthesize.
-  ElectricScene.construct writes reports unconditionally; load old PLAN before
-  redirecting electric_style.ROOT to the new project for any geometry audit.
+- The SIXTH recording is processed in electrostatics_human_lesson: 17 chapters,
+  114 intro/result parts, 57 full actions, measured plan 2887 seconds (48:07).
+  Source is electrostatics_lesson (20 PDF pages, silent 47:35), with all original
+  17 clips, 23 source files, 51 reports and published silent MP4 preserved.
+  This successful recording is one complete MP3, not binary fragments; source
+  SHA256: 29d12143eb6412bda08e4ca1e340d1db18623f1d5a6a499561e0c7745f28b934.
+  cuts.json partitions the full 2337.149395833-second decoded source into 114
+  parts; documented boundaries 1586.425/2284.02 preserve complete word onsets.
+  ASR discrepancies are not verified narrator errors; preserve all speech,
+  tempo and pitch, with only quiet edge trims/handles. No TTS, music or signals.
+  build_edit.py replaces only 114 exact reading Waits in source_windows.json,
+  preserving every reveal/action/guard/fade frame in native 60 fps order.
   Preserve original one-frame black tails in chapters 3/4/5/6/8/10/13–17.
-  The original intro-to-action guard can be 0.783333 s; preserve exact source
-  frame integers rather than enforcing the thermal film's rounded 0.8 s.
+  The source guard from old reports can round to 0.783333 s; use exact frame
+  integers, not nominal plan floats. Current PCM phase checks pass >=0.8s
+  speech-to-action and >=1.583333s action-to-result-speech. All 171 source
+  representative states reviewed; no isolated visual_source fix is required.
+  All 114 original reading holds decoded; one SHA/span-specific codec exception
+  covers frozen 03_04_result [10763,11843), mean .123935/channelMax10. Do not
+  broaden global .15/8 thresholds. Retime CRF 20, mux mono AAC 96k; check actual
+  final size <100MiB. Run verify_delivery.py with actual AAC/full AV decode and
+  final-state visual review before package_delivery.py. ElectricScene.construct
+  unconditionally writes reports: load old PLAN before redirecting electric_style.ROOT
+  for any geometry audit. Never overwrite the original source reports or clips.
+
+- audio_split_helper.html/ZIP splits a user's local file into 20 MiB BINARY
+  fragments named audio_<group>_part_01_of_03.mp3 when needed for transfer.
+  These are transport fragments, not independent audio tracks. Require every
+  part 1..N from the same group exactly once; concatenate raw bytes IN ORDER
+  before decoding, filtering or recognizing. Never decode fragments separately:
+  a boundary may cross an MP3 frame or bit reservoir. The sixth recording above
+  did not use these fragments.
