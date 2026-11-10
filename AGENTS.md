@@ -292,7 +292,7 @@
   cuts.json plus reviewed narration_anchors.json. retime_video.py changes only
   decoded-static sourceholds and initial singleframe pauses plus apexWait.
   All other sourceframes stay in native 60 fps order. Run assemble.py,
-  verify_delivery.py (fullAVdecode, exactPCM, sourceholdpixelchecks), then
+  verify_delivery.py (full AV decode, exactPCM, sourceholdpixelchecks), then
   package_delivery.py. ASR is not verified listening or narrator-error evidence.
   Tight01_05→02_01join82.83s is documented in output/alignment_review.json;
   preserve quiet edge handles.
@@ -416,3 +416,39 @@
   before decoding, filtering or recognizing. Never decode fragments separately:
   a boundary may cross an MP3 frame or bit reservoir. The sixth recording above
   did not use these fragments.
+
+
+- The SEVENTH own-voice edit is direct_current_human_lesson: measured plan
+  2832 seconds (47:12), 169920 frames, 16 chapters, 100 intro/result parts,
+  50 complete actions. Source direct_current_lesson is the 14-page PDF film
+  (silent 48:38). Preserve its 16 clips, 26 source files, 64 old reports and
+  published silent MP4 SHA from original_source_manifest.json. No visual
+  source corrections are required after 150 source-state proofs and targeted
+  handoff/diode/ion/graph reviews. All 100 frozen reading intervals were fully
+  decoded; only 08_01_intro/result have exact SHA/span codec exceptions max9
+  with mean<.15, documented in static_exceptions.json. Global thresholds stay.
+  Full provided MP3 SHA256:
+  17b17d215a8bd48f7977c411534ecf36a2fb3f2c6588c8c3d7bb2e808e37539e.
+  This is one complete file, not binary transport fragments. Keep natural pace
+  and pitch, no TTS/music/signals. cuts.json covers 0→2375.262041666667 seconds.
+  Five reviewed boundary decisions include 1108.98/1453.52/1641.845/1663.695/2302.155.
+  Raw ASR chunk 139 hallucinated; NEVER replace its original cache/transcription.
+  transcription_alignment.json contains genuine recovered right-half ASR and
+  honest whole-slot timing for 12_01_intro. Its first 11 seconds are not fully
+  recognized; retain all source speech. All 653 active 10ms bins in that unknown
+  beginning are independently verified in the actual PCM after quiet-edge trims.
+  See asr_recovery_manifest.json, approved_alignment_validation.json and
+  output/recovery_actual_audio_validation.json. Expected script must never be
+  substituted as heard ASR. Native markers explicitly distinguish unknown words.
+  Build only exact source_windows reading Waits; preserve every other source
+  frame in order at 60 fps, all 50 actions, guards and fades. Each of 16 original
+  clips has one extra black-tail packet frame; keep it. Retimer uses CRF 20 and
+  KEYINT_FRAMES 240 (4-second maximum GOP), included in cache signature/report;
+  a longer I-frame interval reduces static-frame overhead without time scaling.
+  Assembler uses mono AAC128k48kHz; check actual final file size<100MiB
+  before final verification. Preassembly passes exact PCM/99 quiet boundaries,
+  min speech→action 0.8s and action→result 1.583333s. Require actual AAC check,
+  full AV decode and selected final-frame visual review before package_delivery.py.
+  CurrentScene.construct writes reports unconditionally: load old PLAN first,
+  then redirect current_style.ROOT for any geometry audit. Do not overwrite old
+  source clips, old reports or other films.
