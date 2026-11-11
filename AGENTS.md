@@ -452,3 +452,23 @@
   CurrentScene.construct writes reports unconditionally: load old PLAN first,
   then redirect current_style.ROOT for any geometry audit. Do not overwrite old
   source clips, old reports or other films.
+
+
+- The EIGHTH provided recording is magnetism_human_lesson: 19 chapters,120
+  intro/result passages,60 complete actions,3497 seconds(58:17),209820frames.
+  Source magnetism_lesson covers22PDFpages, silent58:37. Preserve19clips,27
+  source files,76reports and published silent SHA from original_source_manifest.
+  Full recording is /workspace/attachments/174ebf1c-e395-436f-9135-7471fa51c4cf/compress.mp3,
+  sediment file_0000000065508211b92e9c37509748ec,29540877bytes,49:14.
+  No TTS/music/tempo/pitch changes. Exact source_windows120 frozen Waits fully
+  decoded; one reviewed SHA/span exception17_03_result[9203,10463) max9/mean.104,
+  otherwise strict .15/8. Prior source180-state review reused only after source
+  fingerprint/hash confirmation; actual final frames need their own review.
+  Seven flagged speech boundaries were checked with genuine sideASR. Changed
+  07_03_intro→result to970.825 and15_03_result→16_01_intro to2334.57 to retain
+  complete closing/opening phrases. Do not invent word timestamps or label
+  ASR phonetics as narrator errors. cuts.json preserves whole source partition.
+  Build/retime only exact static reading windows, keep every other frame and
+  all60actions. CRF20, GOP240, AAC88k mono48k; actual size<100MiB.
+  Require preassembly,actualAAC/fullAVdecode, actual-final selected-frame review
+  and package_delivery.py checks before publishing MP4/TXT/ZIP separately.
