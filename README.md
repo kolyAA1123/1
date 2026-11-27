@@ -1,3 +1,14 @@
+# Тематические уроки по математике
+
+Видеоуроки Manim в формате 1080p, 60 кадров/с. В каждом уроке есть выводы
+и доказательства, примеры и задача с полным решением. Текст для озвучки
+с таймкодами можно скачать отдельно.
+
+| Урок | Фильм | Сценарий | Исходники Manim |
+| --- | --- | --- | --- |
+| Векторы на плоскости | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_sources.zip) |
+| Финансовые задачи | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_sources.zip) |
+
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
 Озвученная версия **55:43, 1920×1080, 60 кадров/с**. Все 108 реплик
