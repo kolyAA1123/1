@@ -1,3 +1,14 @@
+# Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
+
+Озвученная версия **55:43, 1920×1080, 60 кадров/с**. Все 108 реплик
+синхронизированы с 54 действиями в 17 главах. Сохранены естественный
+темп и высота голоса, чёрный фон и плавность исходных анимаций.
+В звуковой дорожке только предоставленная запись.
+
+- [Скачать озвученный фильм MP4](https://github.com/kolyAA1123/1/raw/refs/heads/main/fotoeffekt_sto_yadernaya_fizika_s_vashim_golosom_1080p60.mp4)
+- [Скачать сценарий с новыми таймкодами TXT](https://github.com/kolyAA1123/1/raw/refs/heads/main/fotoeffekt_sto_yadernaya_fizika_s_vashim_golosom_tekst.txt)
+- [Скачать монтажный проект и проверки ZIP](https://github.com/kolyAA1123/1/raw/refs/heads/main/fotoeffekt_sto_yadernaya_fizika_s_vashim_golosom_sources.zip)
+
 # Волновая оптика — с вашим голосом
 
 Озвученная версия **30:48, 1920×1080, 60 кадров/с**. Две части записи
