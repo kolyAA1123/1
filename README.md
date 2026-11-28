@@ -21,6 +21,7 @@
 | Уравнения и неравенства с параметром | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_sources.zip) |
 | Прикладные задачи | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_sources.zip) |
 | Алгебраические выражения и уравнения | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/algebraicheskie_vyrazheniya_i_uravneniya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/algebraicheskie_vyrazheniya_i_uravneniya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/algebraicheskie_vyrazheniya_i_uravneniya_sources.zip) |
+| Стереометрия (расширенная версия) | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_polnaya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_polnaya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_polnaya_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
