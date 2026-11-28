@@ -19,6 +19,7 @@
 | Неравенства | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_sources.zip) |
 | Функции и графики | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_sources.zip) |
 | Уравнения и неравенства с параметром | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/uravneniya_i_neravenstva_s_parametrom_sources.zip) |
+| Прикладные задачи | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/prikladnye_zadachi_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
