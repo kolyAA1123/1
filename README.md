@@ -11,6 +11,7 @@
 | Тригонометрия | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_sources.zip) |
 | Степени и логарифмы | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/stepeni_i_logarifmy_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/stepeni_i_logarifmy_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/stepeni_i_logarifmy_sources.zip) |
 | Комбинаторика и вероятность | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_sources.zip) |
+| Производная и первообразная | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
