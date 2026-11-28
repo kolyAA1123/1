@@ -13,6 +13,8 @@
 | Комбинаторика и вероятность | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/kombinatorika_i_veroyatnost_sources.zip) |
 | Производная и первообразная | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/proizvodnaya_i_pervoobraznaya_sources.zip) |
 | Многочлены и квадратные уравнения | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_sources.zip) |
+| Стереометрия | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_sources.zip) |
+| Целые числа и последовательности | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
