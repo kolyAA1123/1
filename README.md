@@ -15,6 +15,9 @@
 | Многочлены и квадратные уравнения | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/mnogochleny_i_kvadratnye_uravneniya_sources.zip) |
 | Стереометрия | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/stereometriya_sources.zip) |
 | Целые числа и последовательности | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/tselye_chisla_i_posledovatelnosti_sources.zip) |
+| Планиметрия | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/planimetriya_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/planimetriya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/planimetriya_sources.zip) |
+| Неравенства | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/neravenstva_sources.zip) |
+| Функции и графики | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_1080p.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/funktsii_i_grafiki_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
