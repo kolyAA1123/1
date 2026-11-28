@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | Векторы на плоскости | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/vektory_na_ploskosti_sources.zip) |
 | Финансовые задачи | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/finansovye_zadachi_sources.zip) |
+| Тригонометрия | [MP4](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_1080p60.mp4) | [TXT](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_tekst.txt) | [ZIP](https://raw.githubusercontent.com/kolyAA1123/1/main/trigonometriya_sources.zip) |
 
 # Кванты, фотоэффект, СТО и ядерная физика — с вашим голосом
 
